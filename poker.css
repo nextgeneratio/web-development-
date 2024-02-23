@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+  
+body{
+      font-family: "Anta", sans-serif;
+      font-weight: 600;
+      letter-spacing: 0.5rem;
+      background-image: url(poker-background.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+}
+.container{
+      color: #fff;
+      border: none;
+      outline: none;
+      border-radius: 13px;
+      box-shadow: 2px 3px #140101a1;
+      width: 50%;
+      margin-top: 70px;
+      text-align: center;
+      padding: 10px 0 30px;
+      font-size: 1.5em;
+      background-color: transparent;
+      backdrop-filter: blur(30px);
+      cursor: default;
+}
+.container h1{
+      color: #daa520;
+}
+.container button{
+      padding: 6px 14px;
+      border-radius: 12px;
+      font:inherit;
+      letter-spacing: inherit;
+      border: 2px solid #fff;
+      outline: none;
+      color: #daa520;
+      background-color: transparent;
+      cursor: pointer;
+      
+}
+.container button:hover{
+      border: 2px dashed #daa520;
+}
+.startGame-el .nonActive{
+      display: none;
+}
